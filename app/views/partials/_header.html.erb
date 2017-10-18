@@ -1,0 +1,47 @@
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+
+      <!-- Collapsed Hamburger -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Branding Image -->
+      <%= link_to "Miraquels", root_path, class: "navbar-brand" %>
+    </div>
+
+    <div class="collapse navbar-collapse" id="app-navbar-collapse">
+      <!-- Left Side Of Navbar -->
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Help", help_path %></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
+      </ul>
+
+      <!-- Right Side Of Navbar -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Sign Up", signup_path %></li>
+        <!-- Authentication Links -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            Username <span class="caret"></span>
+          </a>
+
+          <ul class="dropdown-menu" role="menu">
+            <li>
+              <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+
+              <!-- Logout form, define if you have authentication system -->
+              <!-- <form id="logout-form" action="" method="POST" style="display: none;"></form> -->
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
