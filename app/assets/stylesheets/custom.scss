@@ -1,5 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import "custom/variables";
 @import "custom/footer";
 @import "custom/navbar";
+@import "custom/typography";
+@import "custom/sidebar";
+@import "custom/forms";

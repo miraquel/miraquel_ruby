@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20171015062735) do
     t.string "nama"
     t.string "username"
     t.string "email"
-    t.integer "gender"
+    t.string "gender"
     t.integer "umur"
     t.text "alamat"
     t.datetime "created_at", null: false
