@@ -8,12 +8,8 @@
 #   gender: MyString
 #   umur:
 #   alamat: MyText
-#
-# two:
-#   nama: MyString
-#   username: MyString
-#   email: MyString
-#   password: MyString
-#   gender: MyString
-#   umur:
-#   alamat: MyText
+
+ading:
+  nama: Chaidir Ali Assegaf
+  email: ading.assegaf@gmail.com
+  password_digest: <%= User.digest('Skateboars1') %>
